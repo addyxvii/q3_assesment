@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="warRoom">
+  <head>
+    <meta charset="utf-8">
+    <title>Galvanize War Room</title>
+    <link href="https://bootswatch.com/slate/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1 ui-sref="home">Galvanize War Room</h1>
+        <div class="O">
+          <a ui-sref="overview">Overview
+          </a>
+        </div>
+      <div class="S">
+        <a ui-sref="settings">Settings
+        </a>
+      </div>
+      <!-- <div ui-view> -->
+
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
+    <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
+    <script src="app/app.js" charset="utf-8"></script>
+    <script src="app/controllers.js" charset="utf-8"></script>
+    <script src="app/services.js" charset="utf-8"></script>
+  </body>
+</html>

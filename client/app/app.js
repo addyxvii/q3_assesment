@@ -7,11 +7,11 @@ angular.module('warRoom', ['ui.router'])
 
     $stateProvider.state('settings', {
       templateUrl: 'views/settings.html',
-      controller: 'HomeController',
+      controller: '',
       url: '/settings'
     }).state('overview', {
-      templateUrl: '/',
-      controller: 'DetailController',
+      templateUrl: 'index.html',
+      controller: '',
       url: '/'
     })
   })

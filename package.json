@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^1.4.40"
+    "axios": "^0.9.1",
+    "express": "^4.13.4",
+    "mongodb": "^1.4.40",
+    "unirest": "^0.4.2"
   }
 }
